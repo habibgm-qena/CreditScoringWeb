@@ -1,0 +1,37 @@
+    /* Global Styles */
+
+    /* Theme Color */
+    :root {
+        --theme-color: #007d7d;
+        /* Color from the uploaded image */
+    }
+
+    /* Header Styles */
+    .header {
+        width: 100%;
+        background-color: var(--theme-color);
+        color: #ffffff;
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .header img {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .header-title {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    .header-text {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
