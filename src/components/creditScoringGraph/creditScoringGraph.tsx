@@ -135,7 +135,7 @@ const CreditScoringGraph: React.FC = () => {
     <div className="my-4">
       <div className="header text-center">
         <div className="header-text">
-          <span className="header-title">Credit Scoring System</span>
+          <span className="header-title">IFB B2B - Credit Scoring System</span>
         </div>
       </div>
       <Card className="flex flex-col justify-center p-4">
@@ -155,7 +155,7 @@ const CreditScoringGraph: React.FC = () => {
                 gridType="circle"
                 radialLines={false}
                 stroke="none"
-                className="first:fill-muted last:fill-background"
+                className="first:fill-muted last:fill-background dark:first:fill-background dark:last:fill-muted"
                 polarRadius={[86, 74]}
               />
               <RadialBar dataKey="visitors" background cornerRadius={10} />
