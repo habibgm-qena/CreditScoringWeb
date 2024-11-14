@@ -46,7 +46,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           business_establishment_year: '2015',
           customer_age: 25,
           customer_level_of_education: 'bachelors',
-          customer_gender: gender,
+          customer_gender: gender === 0 ? 'f' : 'm',
         },
         psycometric_info: {
           gender,
